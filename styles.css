@@ -56,6 +56,17 @@ header {
 } 
 */
 
+.nav__links {
+  display: flex;
+}
+
+.nav__links a {
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+
 .cta {
   /* Sign Up Button */
   padding: 9px 25px;
