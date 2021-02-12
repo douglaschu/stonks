@@ -9,8 +9,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
-  background-color: #24252a;
+  padding: 20px 10%;
+  background-color: #23B5D3;
+
 }
 
 .logo {
@@ -51,10 +52,11 @@ header {
   transition: color 0.3s ease 0s;
 }
 
+*/
+
 .nav__links li a:hover {
   color: #0088a9;
 } 
-*/
 
 .nav__links {
   display: flex;
@@ -63,7 +65,8 @@ header {
 .nav__links a {
   text-decoration: none;
   justify-content: space-between;
-  padding: 10px;
+  padding: 30px;
+  color: white;
   
 }
 
@@ -75,6 +78,8 @@ header {
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
 }
 
 .cta:hover {
@@ -128,6 +133,10 @@ header {
   right: 45px;
   font-size: 60px;
   color: #edf0f1;
+}
+
+body {
+  background-color: #F7F7FF;
 }
 
 @media screen and (max-height: 450px) {
