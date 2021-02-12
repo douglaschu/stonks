@@ -14,14 +14,18 @@ header {
 }
 
 .logo {
+  /* big stonksman head */
   cursor: pointer;
   height: 100px;
   width: 100px;
 }
 
-.nav__links a,
+/* .nav__links a, */
+/* links inside the nav links class */
+/*
 .cta,
 .overlay__content a {
+  justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #000000;
@@ -29,12 +33,18 @@ header {
 }
 
 .nav__links {
+  justify-content: space-around;
   list-style: none;
   display: flex;
 }
 
+.nav__links ul {
+  justify-content: space-around;
+  display: flex;
+}
+
 .nav__links li {
-  padding: 0px 20px;
+  padding: 20px 20px;
 }
 
 .nav__links li a {
@@ -43,9 +53,11 @@ header {
 
 .nav__links li a:hover {
   color: #0088a9;
-}
+} 
+*/
 
 .cta {
+  /* Sign Up Button */
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
